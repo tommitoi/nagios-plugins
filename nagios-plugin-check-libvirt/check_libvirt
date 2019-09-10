@@ -37,6 +37,8 @@
 # No sudo is necessary if you simply add nagios user to the libvirt group
 # libvirtd:x:118:nagios 
 
+export LC_ALL=C.UTF-8
+
 PATH=/bin:/usr/bin:/sbin:/usr/sbin
 export PATH
 
